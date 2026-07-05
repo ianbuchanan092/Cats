@@ -11,7 +11,7 @@ else:
 #If they say no, we'll simply print the final list of cats.
 
 add_cat = input("Would you like to add a new cat to the list? (yes/no): ")
-if add_cat == "yes":
+if add_cat.lower() == "yes":
     new_cat = input("Enter the name of the new cat: ")
     cats.append(new_cat)
     print(f"{new_cat} has been added to the list of cats.")
