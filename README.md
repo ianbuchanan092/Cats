@@ -3,6 +3,9 @@
 A simple Python desktop application built with Tkinter as part of my software development learning journey
 The application allows users to search for cats, add new cats to a list, and automatically save changes so they're available the next time the program is opened.
 
+## Screenshot
+![Cats GUI](images/CatsGUI.png)
+
 ## Features
 
 - Search for a cat by name
