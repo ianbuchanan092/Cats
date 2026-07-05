@@ -1,5 +1,7 @@
-cats = ["Pumpkin", "Mittens", "Whiskers", "Shadow", "Luna", "Simba", "Oliver", "Chloe", "Bella", "Max"]
-
+cat_file = open("cats.txt", "r")
+cats = cat_file.readlines()
+cat_file.close()
+cats = [cat.strip() for cat in cats]  # Remove any leading/trailing whitespace
 input_name = input("Enter a cat's name: ")
 if input_name in cats:
     print(f"{input_name} is in the list of cats.")
